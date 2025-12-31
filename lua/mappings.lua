@@ -1,6 +1,6 @@
 return {
   -- Allows quick access to netrw via cmd/win + b
-  vim.keymap.set('n', '<D-b>', '<Cmd>Ex<CR>'),
+  vim.keymap.set('n', '<D-b>', '<Cmd>25Lexplore!<CR>'),
   -- Since <Tab> = ^I (literally), it makes sense to map shift+tab to ^O
   vim.keymap.set('n', '<S-Tab>', '<C-O>'),
   -- stops the unnamed buffer being overwritten with the replaced content when
