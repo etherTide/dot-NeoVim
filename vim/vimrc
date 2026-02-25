@@ -1,0 +1,11 @@
+"gutter numbers for navigation
+set number
+set relativenumber
+set scrolloff=10
+
+"highlight options
+set hlsearch
+set cursorline
+set cursorlineopt=screenline,number
+
+set viminfo+=n~/.config/vim/.viminfo
