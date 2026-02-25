@@ -8,4 +8,4 @@ set hlsearch
 set cursorline
 set cursorlineopt=screenline,number
 
-set viminfo+=n~/.config/vim/.viminfo
+set viminfo+=n~/.config/vim/viminfo
