@@ -1,23 +1,8 @@
---  vim.g  --
-vim.g.mapleader = " "
-vim.g.maplocalleader = " "
+-- set vim.o and vim.g options
+require("options")
 
-vim.g.have_nerd_font = true
+-- add my custom keybinds
+require("mappings")
 
-vim.g.netrw_keepdir = 0
-
---  vim.o  --
-vim.o.number = true
-vim.o.relativenumber = true
-
-vim.o.mouse = "a"
-
-vim.o.showmode = false
-
-vim.o.breakindent = true
-vim.o.breakindentopt += "sbr"
-vim.o.showbreak = "+++"
-vim.cpoptions += "n"
-
--- modeline
--- vim: ts=2 sw=2 sts=-1 et
+-- install lazy.nvim and pass in lua/plugins/init.lua
+require("config.lazy").setup("plugins")
