@@ -2,7 +2,7 @@
 require("config.options")
 
 -- add my custom keybinds
-require("mappings")
+require("config.mappings")
 
 -- install lazy.nvim and configured plugins
 require("config.lazy")
