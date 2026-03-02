@@ -1,8 +1,8 @@
 -- set vim.o and vim.g options
-require("options")
+require("config.options")
 
 -- add my custom keybinds
 require("mappings")
 
--- install lazy.nvim and pass in lua/plugins/init.lua
-require("config.lazy").setup("plugins")
+-- install lazy.nvim and configured plugins
+require("config.lazy")
