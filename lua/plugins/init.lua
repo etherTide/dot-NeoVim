@@ -11,7 +11,8 @@ LANG_TOOLS = {
   vim = { mason = "vim-language-server", "vint" },
   vimdoc = { mason = none },
   nix = { mason = { "alejandra", "nil" } },
-  markdown = { mason = none },
+  -- TODO: double check I'm OK with these .md tools
+  markdown = { mason = { "markdown-oxide", "cbfmt", "glow" } },
   python = { mason = { "debugpy", "mypy", "ruff", "sphinx-lint" } },
   c = { mason = { "clangd", "codelldb", "cpplint", "clang-format" } },
   make = { mason = "checkmake" },
